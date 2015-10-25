@@ -11,4 +11,4 @@ It is assumed that the function is run from the same working directory as the on
 which the files were downloaded.
 
 When run, the function results in a tidy dataset containing the average value of each 
-mean and standard deviation measurement, grouped by subject and by activity. 
+mean and standard deviation measurement, grouped by subject and by activity.
