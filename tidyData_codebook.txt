@@ -1,0 +1,71 @@
+Project Description
+=================
+
+Data was obtained from the UC Irvine Human Activity Recognition Using Smartphones Data Set. The features selected for the UCI database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. The purpose of this project was to extract the mean and standard deviations measurements only from the UCI dataset, and present them un a tidy dataset containing the average values of each measurement for each subject undertaking each activity.
+
+Collection of Raw Data
+=================
+
+Data was collected from the UCI database. The link to the data file is https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Data is downloaded to the working directory from which additional analysis will occur. 
+
+Processing the Raw Data
+=================
+
+The run_analysis function, found in the run_analysis.R script is used to process the raw data. The script combines the test data and training data, extracts measurements of interest, assigns readable names to the activities and measurements, and outputs a tidy dataset that condenses the data into the average values for each measurement for each subject udnertaking each activity. 
+
+Description of variables in tidyData.txt
+=================
+
+Average values of the measurements are grouped by subject, as indicated in the "subject" field, and by activity, as indicated in the "activityname" field. The remaing fields are listed below. They represent the mean or standard deviation measurements of the activities measured by the accelerometer and gyroscope.
+
+tbodyaccmeanx
+tbodyaccmeany
+tbodyaccmeanz
+tbodyaccstandarddeviationx
+tbodyaccstandarddeviationy
+tbodyaccstandarddeviationz
+tgravityaccmeanx
+tgravityaccmeany
+tgravityaccmeanz
+tgravityaccstandarddeviationx
+tgravityaccstandarddeviationy
+tgravityaccstandarddeviationz
+tbodyaccjerkmeanx
+tbodyaccjerkmeany
+tbodyaccjerkmeanz
+tbodyaccjerkstandarddeviationx
+tbodyaccjerkstandarddeviationy
+tbodyaccjerkstandarddeviationz
+tbodygyromeanx
+tbodygyromeany
+tbodygyromeanz
+tbodygyrostandarddeviationx
+tbodygyrostandarddeviationy
+tbodygyrostandarddeviationz
+tbodygyrojerkmeanx
+tbodygyrojerkmeany
+tbodygyrojerkmeanz
+tbodygyrojerkstandarddeviationx
+tbodygyrojerkstandarddeviationy
+tbodygyrojerkstandarddeviationz
+tbodyaccmagmean
+tbodyaccmagstandarddeviation
+tgravityaccmagmean
+tgravityaccmagstandarddeviation
+tbodyaccjerkmagmean
+tbodyaccjerkmagstandarddeviation
+tbodygyromagmean
+tbodygyromagstandarddeviation
+tbodygyrojerkmagmean
+tbodygyrojerkmagstandarddeviation
+fbodyaccmeanx
+fbodyaccmeany
+fbodyaccmeanz
+fbodyaccstandarddeviationx
+fbodyaccstandarddeviationy
+fbodyaccstandarddeviationz
+
+Sources
+=================
+
+For more information about the raw data, visit http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
